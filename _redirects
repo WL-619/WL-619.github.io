@@ -1,0 +1,4 @@
+# Automatic Project Redirects
+# Generated during build process
+/mypaper  /projects/mypaper.html  301
+/mypaper/* /projects/mypaper.html  301

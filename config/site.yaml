@@ -1,0 +1,60 @@
+# ============================================================
+# One-time site setup (do not change often)
+# - SEO / meta / JSON-LD
+# - Visitor map (ClustrMaps domain_id only; rest use defaults)
+# - Short URL redirects for project pages
+# - Copyright (footer line: "© {start_year} - {current_year} {name}. All rights reserved.")
+# ============================================================
+
+# Copyright: start year for footer (current year is added automatically, e.g. 2025 - 2026)
+copyright_start_year: 2025
+
+# Visitor map: domain_id from clustrmaps.com (this one is for the template demo at ironieser.github.io)
+visitor_map:
+  enabled: true
+  domain_id: "C9TZ0TIOsqBUZDnNhUJVfOLeQ885rfZOfyRRCumKrsE"
+
+# SEO & site identity (meta tags, Open Graph, JSON-LD)
+seo:
+  enable_json_ld: true
+  website_url: "https://yourusername.github.io"
+  github_pages_url: "https://yourusername.github.io"
+  legacy_urls: []
+  website_name: "Doge Zhang - Academic Homepage"
+  website_description: "Such research. Very PhD. Wow."
+  keywords:
+    - computer vision
+    - multimodal AI
+    - machine learning
+    - deep learning
+    - artificial intelligence
+    - academic research
+  author:
+    name: "Doge Zhang"
+    alternate_name: "DogePhD"
+    email: "please-dont-email@example.edu"
+    academic_email: "please-dont-email@example.edu"
+    affiliation: "PhD Candidate (Allegedly), Meowstar University, Planet Meow"
+    job_title: "PhD Student"
+    research_areas:
+      - multimodal AI systems
+      - computer vision
+      - natural language processing
+      - procrastination
+    google_scholar_id: "YOUR_SCHOLAR_ID"
+    orcid: null
+    github: "yourusername"
+    twitter: "yourusername"
+  organization:
+    name: "Meowstar University"
+    type: "CollegeOrUniversity"
+    url: "https://yourusername.github.io"
+    address:
+      addressCountry: "Planet Meow"
+      addressLocality: "Cat City"
+      addressRegion: "Cat Province"
+
+# Short URL redirects (e.g. /mypaper -> /projects/mypaper.html)
+redirects:
+  - alias: mypaper
+    target: /projects/mypaper.html

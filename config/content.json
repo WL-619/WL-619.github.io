@@ -1,0 +1,185 @@
+{
+  "personal": {
+    "name": "Professor Meow",
+    "aka": "Meowstar University",
+    "title": "PhD Student, CatVLM",
+    "affiliation": "Meowstar University, Planet Meow",
+    "email": "meow@example.edu",
+    "profile_image": "images/logo.jpg",
+    "cv_link": "files/CV_template.pdf",
+    "bio": [
+      "I study how cats and models pay attention (mostly cats).",
+      "Sometimes I train VLMs. Mostly I nap."
+    ],
+    "links": [
+      {
+        "name": "Email",
+        "url": "mailto:meow@sixundong.com",
+        "icon": "fas fa-envelope",
+        "color": "#dc3545"
+      },
+      {
+        "name": "Scholar",
+        "url": "https://scholar.google.com/",
+        "icon": "fas fa-graduation-cap",
+        "color": "#4285f4"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/",
+        "icon": "fab fa-github",
+        "color": "#333"
+      }
+    ]
+  },
+  "research": {
+    "description": "I play with vision-language models and cat pictures.",
+    "stats": [
+      "3 serious papers",
+      "many cat photos",
+      "countless failed experiments"
+    ],
+    "max_featured_publications": 5
+  },
+  "news": [
+    {
+      "date": "Jan 2050",
+      "icon": "🎉",
+      "content": "One paper accepted to a big conference. Celebrated with extra treats.",
+      "category": "papers"
+    },
+    {
+      "date": "Jul 2049",
+      "icon": "😴",
+      "content": "Trained a huge model. It overfit on cat memes.",
+      "category": "projects"
+    },
+    {
+      "date": "May 2049",
+      "icon": "💼",
+      "content": "Finished an internship as \"Official Cat Picture Curator\".",
+      "category": "career"
+    }
+  ],
+  "publications": {
+    "2050": [
+      {
+        "title": "CatVLM: When Your Dataset Is 99% Cat Photos",
+        "authors": [
+          "Professor Meow*",
+          "Sleepy GPU"
+        ],
+        "venue": "CVPR'50",
+        "venue_type": "conference",
+        "image": "teaser/conference.jpg",
+        "is_oral": true,
+        "featured": true,
+        "tldr": "We train a VLM almost entirely on cat photos. Surprisingly, it still works on normal images.",
+        "links": [
+          {
+            "name": "Paper",
+            "url": "https://arxiv.org/",
+            "icon": "ai ai-arxiv"
+          },
+          {
+            "name": "Code",
+            "url": "https://github.com/",
+            "icon": "fab fa-github"
+          },
+          {
+            "name": "Dataset",
+            "url": "https://example.com/catvlm-dataset",
+            "icon": "fas fa-database"
+          },
+          {
+            "name": "Blog (Zhihu)",
+            "url": "https://zhuanlan.zhihu.com/",
+            "icon": "fas fa-book-open"
+          },
+          {
+            "name": "YouTube",
+            "url": "https://youtube.com/",
+            "icon": "fab fa-youtube"
+          },
+          {
+            "name": "Bilibili",
+            "url": "https://www.bilibili.com/",
+            "icon": "fas fa-tv"
+          }
+        ]
+      },
+      {
+        "title": "Do Models Prefer Cats or Dogs? A Minimal Study",
+        "authors": [
+          "Professor Meow",
+          "Doggo Reviewer 2"
+        ],
+        "venue": "arXiv'2050",
+        "venue_type": "preprint",
+        "image": "teaser/conference.jpg",
+        "featured": true,
+        "tldr": "We compare model preferences on simple cat vs dog prompts.",
+        "links": [
+          {
+            "name": "Paper",
+            "url": "https://arxiv.org/",
+            "icon": "ai ai-arxiv"
+          },
+          {
+            "name": "Code (coming soon)",
+            "url": null,
+            "icon": "fab fa-github",
+            "coming_soon": true
+          }
+        ]
+      },
+      {
+        "title": "A Short Survey of Cat-Themed Benchmarks",
+        "authors": [
+          "Professor Meow"
+        ],
+        "venue": "Under Review",
+        "venue_type": "under-review",
+        "image": "teaser/conference.jpg",
+        "featured": true,
+        "links": [
+          {
+            "name": "Paper (under review)",
+            "url": null,
+            "icon": "ai ai-arxiv",
+            "coming_soon": true
+          }
+        ]
+      }
+    ]
+  },
+  "experience": [
+    {
+      "position": "Official Cat Picture Curator",
+      "company": "Very Serious Cat Lab",
+      "period": "Summer 2049",
+      "description": "Selected high-quality cat photos for training and slides.",
+      "logo": "images/logo.jpg"
+    }
+  ],
+  "education": [
+    {
+      "degree": "PhD in Cat-Inspired AI (ongoing)",
+      "institution": "Meowstar University, Planet Meow",
+      "period": "2045 - ?",
+      "details": "Trying to graduate. The cat advisor is not impressed yet."
+    },
+    {
+      "degree": "B.S. in Computer Science",
+      "institution": "Somewhere on Earth",
+      "period": "2040 - 2044",
+      "details": "Learned the difference between a cat and a segfault."
+    }
+  ],
+  "service": {
+    "reviewer": {
+      "conferences": "CVPR (Cat Vision and Pattern Recognition), NeurIPS (Neural Indoor Pet Systems)",
+      "journals": "Journal of Cat Science"
+    }
+  }
+}

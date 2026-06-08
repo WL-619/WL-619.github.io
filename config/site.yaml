@@ -1,0 +1,59 @@
+# ============================================================
+# One-time site setup (do not change often)
+# - SEO / meta / JSON-LD
+# - Visitor map (ClustrMaps domain_id only; rest use defaults)
+# - Short URL redirects for project pages
+# - Copyright (footer line: "© {start_year} - {current_year} {name}. All rights reserved.")
+# ============================================================
+
+# Copyright: start year for footer (current year is added automatically, e.g. 2025 - 2026)
+copyright_start_year: 2025
+
+# Visitor map: domain_id from clustrmaps.com (this one is for the template demo at ironieser.github.io)
+visitor_map:
+  enabled: false
+  domain_id: "C9TZ0TIOsqBUZDnNhUJVfOLeQ885rfZOfyRRCumKrsE"
+
+# SEO & site identity (meta tags, Open Graph, JSON-LD)
+seo:
+  enable_json_ld: true
+  website_url: "https://wl-619.github.io"
+  github_pages_url: "https://wl-619.github.io"
+  legacy_urls: []
+  website_name: "Wei's Homepage"
+  # website_description: "Wei Li is an incoming Computer Science Ph.D. student at the University of Central Florida researching efficient and reliable computer vision systems."
+  keywords:
+    - computer vision
+    # - multimodal AI
+    # - machine learning
+    # - deep learning
+    # - artificial intelligence
+    - academic research
+  author:
+    name: "Wei Li"
+    alternate_name: "Wei Li"
+    email: "li.wei.ml.619@gmail.com"
+    academic_email: "li.wei.ml.619@gmail.com"
+    affiliation: "University of Central Florida"
+    job_title: "Incoming Ph.D. Student"
+    research_areas:
+      - computer vision
+      # - efficient adaptation
+      # - reliable machine learning
+    google_scholar_id: null
+    orcid: null
+    github: "WL-619"
+    twitter: null
+  organization:
+    name: "University of Central Florida"
+    type: "CollegeOrUniversity"
+    url: "https://www.ucf.edu"
+    address:
+      addressCountry: "USA"
+      addressLocality: "Orlando"
+      addressRegion: "Florida"
+
+# Short URL redirects (e.g. /mypaper -> /projects/mypaper.html)
+# redirects:
+#   - alias: mypaper
+#     target: /projects/mypaper.html

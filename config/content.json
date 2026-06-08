@@ -1,0 +1,81 @@
+{
+  "personal": {
+    "name": "Wei Li",
+    "aka": "",
+    "title": "Incoming Ph.D. Student in Computer Science",
+    "affiliation": "University of Central Florida",
+    "email": "li.wei.ml.619@gmail.com",
+    "profile_image": "images/profile.jpg",
+    "cv_link": "",
+    "bio": [
+      "I am an incoming Ph.D. student in Computer Science at the University of Central Florida, advised by Prof. Chen Chen.",
+      "My research focuses on building efficient, stable, and reliable computer vision systems. My long-term goal is to improve how computers process and understand visual information, including images and videos, and to explore computer vision applications in digital entertainment, film, and gaming."
+    ],
+    "links": [
+      {
+        "name": "Email",
+        "url": "mailto:li.wei.ml.619@gmail.com",
+        "icon": "fas fa-envelope",
+        "color": "#dc3545"
+      }
+    ]
+  },
+  "research": {
+    "description": "",
+    "stats": [],
+    "max_featured_publications": 5
+  },
+  "news": [],
+  "publications": {
+    "2025": [
+      {
+        "title": "Come Together, But Not Right Now: A Progressive Strategy to Boost Low-Rank Adaptation",
+        "authors": [],
+        "venue": "ICML 2025",
+        "venue_type": "conference",
+        "image": "teaser/conference.jpg",
+        "featured": true,
+        "links": []
+      },
+      {
+        "title": "PSBD: Prediction Shift Uncertainty Unlocks Backdoor Detection",
+        "authors": [],
+        "venue": "CVPR 2025",
+        "venue_type": "conference",
+        "image": "teaser/conference.jpg",
+        "featured": true,
+        "links": []
+      }
+    ]
+  },
+  "experience": [
+    {
+      "position": "Research Assistant",
+      "company": "Southern University of Science and Technology",
+      "period": "May 2023 - Jul 2025",
+      "description": "",
+      "logo": ""
+    },
+    {
+      "position": "Remote Research Collaborator (Volunteer)",
+      "company": "Illinois Institute of Technology",
+      "period": "May 2023 - Feb 2024",
+      "description": "",
+      "logo": ""
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor's Degree in Computer Science and Technology",
+      "institution": "Fuzhou University",
+      "period": "Sep 2018 - Jun 2022",
+      "details": ""
+    }
+  ],
+  "service": {
+    "reviewer": {
+      "conferences": "",
+      "journals": ""
+    }
+  }
+}
